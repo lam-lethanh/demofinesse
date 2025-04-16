@@ -1,0 +1,23 @@
+.product-card-title {
+    text-align: left;
+    font-size: 16px !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;            /* Giới hạn tiêu đề chỉ hiển thị tối đa 2 dòng */
+    -webkit-box-orient: vertical;     /* Đảm bảo tiêu đề sắp xếp theo chiều dọc */
+    overflow: hidden;                 /* Ẩn phần văn bản bị vượt quá */
+    text-overflow: ellipsis;          /* Thêm dấu ba chấm khi văn bản bị cắt */
+  }
+  
+  .product-card {
+    /* max-width: 16rem; */
+    box-sizing: border-box;
+    padding: 1px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng chuyển động mượt mà */
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px); /* Đẩy card lên trên một chút */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Tạo bóng */
+  }

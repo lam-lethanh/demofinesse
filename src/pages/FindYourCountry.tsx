@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Nếu bạn dùng react-router
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const countries: string[] = [
     'Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola',

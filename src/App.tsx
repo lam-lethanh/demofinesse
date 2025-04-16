@@ -16,7 +16,7 @@ function App() {
      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage/>}  />
-        <Route path="/find-your-country" element={<CountrySelector />} />
+        <Route path="/pages/find-your-country" element={<CountrySelector />} />
         <Route path="/collections/:slug" element={<Collection />} />
       </Routes>
     </BrowserRouter>

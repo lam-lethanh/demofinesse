@@ -105,7 +105,7 @@ function Homepage () {
 
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} viewport={{ once: true }}>
         <Link to="/pages/find-your-country">
-          <img src="src/assets/FinessePrint_FindYourCountry.png" alt="FindYourCountry" className="w-100 h-100 rounded-4 home-find-country" />
+          <img src="/img/FinessePrint_FindYourCountry.png" alt="FindYourCountry" className="w-100 h-100 rounded-4 home-find-country" />
         </Link>
       </motion.div>
 
